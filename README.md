@@ -6,26 +6,17 @@ contains the dotfiles for my main system.
 
 make sure you have the following installed.
 
-### git
+git (that's it!)
 
 ```
 pacman -S git
-```
 
-### stow
-```
-pacman -S stow
-```
+git clone github.com/samanshaiza004/dotfiles.git ~/dotfiles
 
-```
-git clone github.com/samanshaiza004/dotfiles.git
-cd dotfiles
-```
+cd ~/dotfiles
+chmod +x setup.sh
+./setup.sh
 
-then use stow to create symlinks
-
-```
-stow .
 ```
 
 
